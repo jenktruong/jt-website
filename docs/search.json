@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-01-22T14:37:24-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Jennifer Truong",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n      \r\n      My Data Science Website\r\n      \r\n      \r\n      Home\r\n      About\r\n      ☰\r\n      \r\n      \r\n      \r\n        \r\n          \r\n            Jennifer Truong\r\n          \r\n          \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n                                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2021-01-22T14:37:25-08:00"
+    }
+  ],
+  "collections": []
+}
