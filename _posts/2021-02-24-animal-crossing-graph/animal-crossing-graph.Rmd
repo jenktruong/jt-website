@@ -1,7 +1,7 @@
 ---
-title: "Animal Crossing Graph!"
+title: "Meet the Villagers of Animal Crossing"
 description: |
-  A short description of the post.
+  Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo.
 author:
   - name: Jennifer Truong
     url: {}
