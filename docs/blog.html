@@ -2119,7 +2119,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
 
-
+  @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans:wght@400;500&display=swap');
 
   html {
     /*-- Main font sizes --*/
@@ -2133,12 +2133,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --header-color:    rgba(0, 0, 0, 0.8);
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(48, 98, 48, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --heading-font:    font-family: 'Josefin Sans', sans-serif; 
+    --mono-font:       font-family: 'Dosis', sans-serif;
+    --body-font:       font-family: 'Dosis', sans-serif;
+    --navbar-font:     font-family: 'Josefin Sans', sans-serif; /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2171,19 +2171,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      #00008B;
-    --bkgd-color:       #3296FA;
+    --bkgd-color:       #1919B9;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      #00008B;
-    --bkgd-color:       #3296FA;
+    --bkgd-color:       #1919B9;
   }
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+
+  h1 {
+    font-weight: bold;
+    --text-color:       #0004A8;
+  }
+
+  h2 {
+    font-weight: 600;
+    --text-color:       #4974A5;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2543,7 +2552,7 @@ function init_posts_list() {
 </div>
 </div>
 <div class="thumbnail">
-<img/>
+<img src="posts/2021-02-24-animal-crossing-graph/animal-crossing-graph_files/figure-html5/unnamed-chunk-1-1.png"/>
 </div>
 <div class="description">
 <h2>Meet the Villagers of Animal Crossing</h2>
@@ -2556,7 +2565,7 @@ function init_posts_list() {
 <div class="metadata">
 <div class="publishedDate">Feb. 6, 2021</div>
 <div class="dt-authors">
-<div class="dt-author">Unknown</div>
+<div class="dt-author">Jennifer Truong</div>
 </div>
 </div>
 <div class="thumbnail">

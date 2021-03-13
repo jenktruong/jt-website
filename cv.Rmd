@@ -6,6 +6,11 @@ description: |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+# Attach viate package
+#library(vitae)
+
+#awesomecv(..., latex_engine = "xelatex")
 ```
 
 ### EDUCATION 

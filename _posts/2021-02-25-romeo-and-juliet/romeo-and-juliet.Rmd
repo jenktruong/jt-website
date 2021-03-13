@@ -90,7 +90,7 @@ nonstop_counts <- rj_nonstop_words %>%
 
 ## Word Cloud! 
 
-```{r}
+```{r, fig.cap="The five words with the most occurences throughout the play."}
 # Find top 100 words in the play
 rj_top100 <- nonstop_counts %>% 
   arrange(-n) %>% 
@@ -110,15 +110,13 @@ rj_cloud <- ggplot(data = rj_top100,
 rj_cloud
 ```
 
-**Figure 1.** The five words with the most occurences throughout the play. 
-
 ## Sentiment analysis
 
 Now we'll use the NRC lexicon here!
 
 **Data source:** Saif Mohammad and Peter Turney. (2013), “Crowdsourcing a Word-Emotion Association Lexicon.” Computational Intelligence, 29(3): 436-465.
 
-```{r}
+```{r, fig.cap="The ranking of sentiment categories from the NRC Lexicon found within *Romeo and Juliet* in descending order."}
 rj_nrc <- rj_nonstop_words %>% 
   inner_join(get_sentiments("nrc"))
 
@@ -142,5 +140,3 @@ ggplot(data = rj_nrc_counts,
                                     color = "rosybrown4")
   )
 ```
-
-**Figure 2.** The ranking of sentiment categories from the NRC Lexicon found within *Romeo and Juliet* in descending order.

@@ -10,9 +10,9 @@ links:
     url: "https://github.com/jenjentro"
   - label: Email
     url: "mailto:jktruong@bren.ucsb.edu"
+site: distill::distill_website
 output:
   postcards::jolla
-site: distill::distill_website
 ---
  
 I am a Master's Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science. 

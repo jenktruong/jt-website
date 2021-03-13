@@ -165,7 +165,7 @@ acnh_graph <- ggplot(data = villager_by_freq,
 
 ```
 
-```{r Get a set of villager photos}
+```{r, fig.cap="Total count of ACNH villagers per personality types!"}
 
 ggdraw() + 
     draw_plot(acnh_graph) +
@@ -212,5 +212,3 @@ ggdraw() +
   
 
 ```
-
-**Figure 1.** Total count of ACNH villagers per personality types!
