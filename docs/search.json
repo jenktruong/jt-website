@@ -6,22 +6,30 @@
       "description": "Learn more about me",
       "author": [],
       "contents": "\r\nInterests\r\nI first became passionate about protecting the environment since high school. I enjoyed going on hikes and picking up trash with my school’s environmental club.\r\nAlong with my environmental work, I recently started creating content on Twitch. I try to play nature related games along with the usual video games I grew to love.\r\nExperience/Projects\r\nI attended UCLA for my bachelor’s in Environmental Science with a minor in Conservation Biology from 2011-2015. This was where I learned about the chaparral and coastal sage scrubs ecosystems in California. Here is where I also started developing my GIS skills. I earned a GIS certificate at UCLA extension.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-06T19:17:30-07:00"
+      "last_modified": "2021-11-06T20:10:04-07:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-06T19:17:31-07:00"
+      "last_modified": "2021-11-06T20:10:05-07:00"
     },
     {
       "path": "index.html",
       "title": "Jennifer Truong",
       "author": [],
-      "contents": "\r\n\r\n          \r\n          \r\n          My Data Science Website\r\n          \r\n          \r\n          Home\r\n          About\r\n          Blog\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            Jennifer Truong\r\n          \r\n          \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n                                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2021-11-06T19:17:31-07:00"
+      "contents": "\r\n\r\n          \r\n          \r\n          My Data Science Website\r\n          \r\n          \r\n          Home\r\n          About\r\n          Blog\r\n          Projects\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            Jennifer Truong\r\n          \r\n          \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n            \r\n              I am a Master’s Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science.\r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                \r\n                                \r\n                  \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    LinkedIn\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Twitter\r\n                  \r\n                \r\n                                \r\n                  \r\n                    GitHub\r\n                  \r\n                \r\n                                \r\n                  \r\n                    Email\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2021-11-06T20:10:05-07:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects",
+      "description": "Here is a sample of GIS and data science projects from my education and career.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-11-06T20:10:06-07:00"
     }
   ],
-  "collections": ["posts/posts.json"]
+  "collections": ["posts/posts.json", "projects/projects.json"]
 }

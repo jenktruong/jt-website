@@ -12,4 +12,11 @@ navbar:
       href: about.html
     - text: "Blog"
       href: blog.html
+    - text: "Projects"
+      href: projects.html
+collections:
+  posts:
+    categories: true
+  projects:
+    categories: true
 output: distill::distill_article
