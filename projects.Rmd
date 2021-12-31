@@ -3,5 +3,10 @@ title: "Projects"
 description: |
   Here is a sample of GIS and data science projects from my education and career
 listing: projects
+categories:
+  - data_analysis
+  - data_viz
+  - programming
+  - gis
 ---
 
