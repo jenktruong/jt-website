@@ -35,19 +35,19 @@
   },
   {
     "path": "posts/2021-02-06-welcome/",
-    "title": "welcome",
-    "description": "A short description of the post.",
+    "title": "Hello World!",
+    "description": "Testing, testing, one, two, three!",
     "author": [
       {
         "name": "Jennifer Truong",
         "url": {}
       }
     ],
-    "date": "2021-02-06",
+    "date": "2021-01-05",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nHello world! This is my first post as I attempt to build my portfolio of various data projects I created since my education. That’s all.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-03-12T17:42:19-08:00",
+    "last_modified": "2022-01-05T18:32:12-08:00",
     "input_file": {}
   }
 ]
