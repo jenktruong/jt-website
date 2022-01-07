@@ -1,7 +1,7 @@
 name: "."
-title: "My Data Science Website"
+title: "Jennifer Truong"
 description: |
-  My Data Science Website
+  Welcome to my data science website!
 output_dir: "docs"
 theme: postcards.css
 navbar:

@@ -5,7 +5,7 @@ description: |
 listing: projects
 categories:
   - data_analysis
-  - data_viz
+  - data_visualization
   - programming
   - gis
 ---
