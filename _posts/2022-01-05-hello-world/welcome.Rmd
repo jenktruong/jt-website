@@ -1,0 +1,20 @@
+---
+title: "Hello World!"
+description: |
+  Testing, testing, one, two, three!
+author:
+  - name: Jennifer Truong
+date: 01-05-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hello world! This is my first post as I attempt to build my portfolio of various data projects I created since my education. That's all.
+
+

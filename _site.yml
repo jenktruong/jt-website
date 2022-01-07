@@ -12,8 +12,8 @@ navbar:
       href: about.html
     - text: "Blog"
       href: blog.html
-    - text: "Projects"
-      href: projects.html
+    - text: "Portfolio"
+      href: portfolio.html
 collections:
   posts:
     categories: true

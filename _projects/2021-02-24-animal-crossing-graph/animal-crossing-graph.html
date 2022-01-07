@@ -87,638 +87,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>My Data Science Website: About Me</title>
+  <title>Meet the Villagers of Animal Crossing</title>
 
-  <meta property="description" itemprop="description" content="Learn more about me"/>
+  <meta property="description" itemprop="description" content="Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-02-24"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-02-24"/>
+  <meta name="article:author" content="Jennifer Truong"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="My Data Science Website: About Me"/>
+  <meta property="og:title" content="Meet the Villagers of Animal Crossing"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Learn more about me"/>
+  <meta property="og:description" content="Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="My Data Science Website"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="My Data Science Website: About Me"/>
-  <meta property="twitter:description" content="Learn more about me"/>
+  <meta property="twitter:title" content="Meet the Villagers of Animal Crossing"/>
+  <meta property="twitter:description" content="Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About Me"]},{"type":"character","attributes":{},"value":["Learn more about me"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Meet the Villagers of Animal Crossing"]},{"type":"character","attributes":{},"value":["Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Jennifer Truong"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["02-24-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","code_folding"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["hide"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["animal-crossing-graph_files/anchor-4.2.2/anchor.min.js","animal-crossing-graph_files/bowser-1.9.3/bowser.min.js","animal-crossing-graph_files/distill-2.2.21/template.v2.js","animal-crossing-graph_files/figure-html5/Get a set of villager photos-1.png","animal-crossing-graph_files/figure-html5/unnamed-chunk-1-1.png","animal-crossing-graph_files/figure-html5/Villager graph-1.png","animal-crossing-graph_files/header-attrs-2.6.6/header-attrs.js","animal-crossing-graph_files/jquery-1.11.3/jquery.min.js","animal-crossing-graph_files/popper-2.6.0/popper.min.js","animal-crossing-graph_files/tippy-6.2.7/tippy-bundle.umd.min.js","animal-crossing-graph_files/tippy-6.2.7/tippy-light-border.css","animal-crossing-graph_files/tippy-6.2.7/tippy.css","animal-crossing-graph_files/tippy-6.2.7/tippy.umd.min.js","animal-crossing-graph_files/webcomponents-2.0.0/webcomponents.js","img/ankha_snooty.jpg","img/eugene_smug.jpg","img/fang_cranky.jpg","img/judy_snooty.jpg","img/ketchup_peppy.jpg","img/lunar_new_year_family_photo.jpg","img/marshal_smug.jpg","img/merengue_normal.jpg","img/pekoe_normal.jpg","img/phoebe_sisterly.jpg","img/roald_jock.jpg","img/sherb_lazy.jpg"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2036,341 +1437,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-  @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans:wght@400;500&display=swap');
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(48, 98, 48, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    font-family: 'Josefin Sans', sans-serif; 
-    --mono-font:       font-family: 'Dosis', sans-serif;
-    --body-font:       font-family: 'Dosis', sans-serif;
-    --navbar-font:     font-family: 'Josefin Sans', sans-serif; /* websites + blogs only */
-  }
-
-  body {
-    background-color: #f9f8f8;
-  }
-
-  h1 {
-    font-weight: bold;
-    color:       #0004A8;
-  }
-
-  h2 {
-    font-weight: 600;
-    color:       #4974A5;
-  }
-
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      #00008B;
-    --bkgd-color:       #1919B9;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      #00008B;
-    --bkgd-color:       #1919B9;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below  */
-  </style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="animal-crossing-graph_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="animal-crossing-graph_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="animal-crossing-graph_files/popper-2.6.0/popper.min.js"></script>
+  <link href="animal-crossing-graph_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="animal-crossing-graph_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="animal-crossing-graph_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="animal-crossing-graph_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="animal-crossing-graph_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="animal-crossing-graph_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="animal-crossing-graph_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -2382,45 +1459,205 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About Me","description":"Learn more about me","authors":[]}
+{"title":"Meet the Villagers of Animal Crossing","description":"Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo.","authors":[{"author":"Jennifer Truong","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-24T00:00:00.000-08:00","citationText":"Truong, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">My Data Science Website</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="blog.html">Blog</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About Me</h1>
+<h1>Meet the Villagers of Animal Crossing</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Learn more about me</p></p>
+<p><p>Lots of friendly, cute, and talented villagers in this amazing video game by Nintendo.</p></p>
 </div>
 
+<div class="d-byline">
+  Jennifer Truong true 
+  
+<br/>02-24-2021
+</div>
 
 <div class="d-article">
-<h3 id="interests">Interests</h3>
-<p>I first became passionate about protecting the environment since high school. I enjoyed going on hikes and picking up trash with my school’s environmental club.</p>
-<p>Along with my environmental work, I recently started creating content on Twitch. I try to play nature related games along with the usual video games I grew to love.</p>
-<h3 id="experienceprojects">Experience/Projects</h3>
-<p>I attended UCLA for my bachelor’s in Environmental Science with a minor in Conservation Biology from 2011-2015. This was where I learned about the chaparral and coastal sage scrubs ecosystems in California. Here is where I also started developing my GIS skills. I earned a GIS certificate at UCLA extension.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p><img src="img/lunar_new_year_family_photo.jpg" /></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Get the Data</span>
+
+<span class='va'>critic</span> <span class='op'>&lt;-</span> <span class='fu'>readr</span><span class='fu'>::</span><span class='fu'><a href='https://readr.tidyverse.org/reference/read_delim.html'>read_tsv</a></span><span class='op'>(</span><span class='st'>'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/critic.tsv'</span><span class='op'>)</span>
+<span class='va'>user_reviews</span> <span class='op'>&lt;-</span> <span class='fu'>readr</span><span class='fu'>::</span><span class='fu'><a href='https://readr.tidyverse.org/reference/read_delim.html'>read_tsv</a></span><span class='op'>(</span><span class='st'>'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/user_reviews.tsv'</span><span class='op'>)</span>
+<span class='va'>items</span> <span class='op'>&lt;-</span> <span class='fu'>readr</span><span class='fu'>::</span><span class='fu'><a href='https://readr.tidyverse.org/reference/read_delim.html'>read_csv</a></span><span class='op'>(</span><span class='st'>'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/items.csv'</span><span class='op'>)</span>
+<span class='va'>villagers</span> <span class='op'>&lt;-</span> <span class='fu'>readr</span><span class='fu'>::</span><span class='fu'><a href='https://readr.tidyverse.org/reference/read_delim.html'>read_csv</a></span><span class='op'>(</span><span class='st'>'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-05/villagers.csv'</span><span class='op'>)</span>
+
+<span class='co'># I'll probably just focus on the villagers data though</span>
+</code></pre>
+</div>
+</details>
+</div>
+<h2 id="about-the-data">About the Data</h2>
+<p>During Tidy Tuesday in May 2020, one of the datasets was based on <em>Animal Crossing: New Horizons</em> (ACNH), one of Nintendo’s popular franchises that took off at the beginning of the pandemic. Having played the game since its release, I was interested in doing some fun data visualization of the many villagers featured in the game.</p>
+<p><strong>Data source:</strong> <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-05-05" class="uri">https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-05-05</a></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>villager_count</span> <span class='op'>&lt;-</span> <span class='va'>villagers</span> <span class='op'><a href='https://rdrr.io/pkg/janitor/man/pipe.html'>%&gt;%</a></span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/group_by.html'>group_by</a></span><span class='op'>(</span><span class='va'>personality</span><span class='op'>)</span> <span class='op'><a href='https://rdrr.io/pkg/janitor/man/pipe.html'>%&gt;%</a></span> <span class='co'># Group by personality</span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/count.html'>count</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://rdrr.io/pkg/janitor/man/pipe.html'>%&gt;%</a></span> <span class='co'># Count by personality</span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/arrange.html'>arrange</a></span><span class='op'>(</span><span class='op'>-</span><span class='va'>n</span><span class='op'>)</span> <span class='co'># Arrange from most villagers to least</span>
+
+<span class='co'># Change personality column to factor</span>
+<span class='va'>villager_fct</span> <span class='op'>&lt;-</span> <span class='va'>villager_count</span> <span class='op'><a href='https://rdrr.io/pkg/janitor/man/pipe.html'>%&gt;%</a></span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></span><span class='op'>(</span>personality <span class='op'>=</span> <span class='fu'><a href='https://forcats.tidyverse.org/reference/as_factor.html'>as_factor</a></span><span class='op'>(</span><span class='va'>personality</span><span class='op'>)</span><span class='op'>)</span>
+
+<span class='co'># Change factor levels to based on frequncy</span>
+<span class='va'>villager_by_freq</span> <span class='op'>&lt;-</span> <span class='va'>villager_fct</span> <span class='op'><a href='https://rdrr.io/pkg/janitor/man/pipe.html'>%&gt;%</a></span>
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></span><span class='op'>(</span>personality <span class='op'>=</span> <span class='fu'><a href='https://forcats.tidyverse.org/reference/fct_inorder.html'>fct_infreq</a></span><span class='op'>(</span><span class='va'>personality</span><span class='op'>)</span><span class='op'>)</span>
+
+<span class='co'>#Check level</span>
+<span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='va'>villager_by_freq</span><span class='op'>$</span><span class='va'>personality</span><span class='op'>)</span>  
+</code></pre>
+</div>
+</details>
+<pre><code>[1] &quot;cranky&quot; &quot;jock&quot;   &quot;lazy&quot;   &quot;normal&quot; &quot;peppy&quot;  &quot;smug&quot;   &quot;snooty&quot;
+[8] &quot;uchi&quot;  </code></pre>
+</div>
+<h2 id="acnh-villager-personalities">ACNH Villager Personalities</h2>
+<h3 id="female-villagers">Female Villagers</h3>
+<h4 id="normal">Normal</h4>
+<p><img src="img/pekoe_normal.jpg" /></p>
+<p>A normal villager is nice most of the time. She will often comment on the tidiness of her house and her clothes. She rarely gets upset but can be very kind. She worries about nothing other than hygiene and tidiness. The normal villager loves clothes shopping and may ask for the player to get certain clothes for a small reward.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Normal" class="uri">https://nookipedia.com/wiki/Normal</a></p>
+<h4 id="peppy">Peppy</h4>
+<p><img src="img/ketchup_peppy.jpg" /></p>
+<p>A peppy villager appears energetic and unusually excited when seeing the player and most other villagers. She also appears childish and immature, saying stereotypical “girly” words such as “totally”, “sooo” and “like”, as in “This is, like, cool!” She is also also excessively kind, usually asking the player for items they want. She gets along well with other villagers, particularly the lazy, normal, big sister, smug and other peppy villagers, but she has the tendency to annoy and upset cranky and snooty villagers, who are known to appear older and more mature than other villagers. Due to her honest nature, the peppy villager may mention how “old” or “boring” they are, in contrast to her energetic, upbeat personality. She easily gets upset in conversation when it is not going her way, but will forget ever having the conversation due to her short attention span.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Peppy" class="uri">https://nookipedia.com/wiki/Peppy</a></p>
+<h4 id="sisterly-uchi">Sisterly (Uchi)</h4>
+<p><img src="img/phoebe_sisterly.jpg" /></p>
+<p>A big sister (or sisterly) villager will act similar to a snooty villager, but she will act kinder to the player, especially in the sense that she dislikes rumors. She gets along with most villager personalities, but will disagree with cranky and snooty villagers sometimes because they spread rumors. She may talk about gardening and cooking frequently, but the other villagers may question her expertise. If the player gets stung by a Bee, she will supply medicine.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Big_sister" class="uri">https://nookipedia.com/wiki/Big_sister</a></p>
+<h4 id="snooty">Snooty</h4>
+<p><img src="img/judy_snooty.jpg" /></p>
+<p>A snooty villager will appear arrogant and snobbish towards the player and other villagers, but will appear friendly and nice in some discussions, provided they are mature and do not insult her lifestyle. She finds appearance important, and will get angry or upset if someone criticizes her sense of style or fitness, which means a conversation between her and a jock personality may leave either one upset or angry. Her attitude towards the player changes, as she begins to warm up to them, but she will still retain some arrogance and subtle rudeness. She may not get along with lazy villagers, due to their lifestyles - lazy villagers having a strong interest in food or relaxing, both of which will make her uncomfortable, angry, and upset when in conversation. She will upset peppy villagers, usually by gossiping about them, and finding small things to judge them on. She will get along well with normal, cranky, and other snooty villagers.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Snooty" class="uri">https://nookipedia.com/wiki/Snooty</a></p>
+<h3 id="male-villagers">Male Villagers</h3>
+<h4 id="smug">Smug</h4>
+<p><img src="img/marshal_smug.jpg" /></p>
+<p>A smug villager will not find it hard to converse with other villagers, as he is very polite and lively. He also may be seen flirting with the player, regardless of their gender. He may sometimes appear conceited when talking to himself. Some of his hobbies include dancing and singing. He will appear enthusiastic when going to the player’s house.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Smug" class="uri">https://nookipedia.com/wiki/Smug</a></p>
+<h4 id="cranky">Cranky</h4>
+<p><img src="img/fang_cranky.jpg" /></p>
+<p>A cranky villager will appear mature compared to other personality types. This will make him appear belittling and insensitive to other villagers, including the player. Despite this, he will learn to confide in the player, considering them his only friend. He will enjoy the usual hobbies, but for relaxation and peace than competition. He will find it difficult to socialize with peppy villagers, who he will criticize when talking to other villagers. He will get along with normal and snooty villagers, as well as other cranky villagers, who he will share deeper conversations with, and will also admire lazy villagers for their lifestyle. He will, on occasion, annoy a normal villager, usually when being mean about something or someone.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Cranky" class="uri">https://nookipedia.com/wiki/Cranky</a></p>
+<h4 id="lazy">Lazy</h4>
+<p><img src="img/sherb_lazy.jpg" /></p>
+<p>A lazy villager has a relaxed, laid-back lifestyle and will appear friendly toward the player. He often talks about food and is humorous or naïve during conversations. During conversations with other villagers, he generally gets along well with peppy, smug, and cranky villagers, while snooty and jock villagers may not get along with him due to their conflicting lifestyles.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Lazy" class="uri">https://nookipedia.com/wiki/Lazy</a></p>
+<h4 id="jock">Jock</h4>
+<p><img src="img/roald_jock.jpg" /></p>
+<p>A jock villager is energetic and has an interest in physical fitness and activity. He often talks about exercise or sports and may brag about his physical fitness. While often friendly to the player, he may comment on their fitness. During conversations with other villagers, he generally gets along well with peppy villagers due their similar hyper personalities and will also get along with smug villagers, while he may offend snooty villagers by critiquing their fitness and annoy cranky villagers with his hyper personality.</p>
+<p><strong>Data source:</strong> <a href="https://nookipedia.com/wiki/Jock" class="uri">https://nookipedia.com/wiki/Jock</a></p>
+<h2 id="villager-graph">Villager Graph</h2>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>acnh_graph</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span>data <span class='op'>=</span> <span class='va'>villager_by_freq</span>, 
+           <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='fu'><a href='https://forcats.tidyverse.org/reference/fct_reorder.html'>fct_reorder</a></span><span class='op'>(</span><span class='va'>personality</span>, <span class='va'>n</span><span class='op'>)</span>, <span class='co'># Reorder personality (x variable) by count</span>
+               y <span class='op'>=</span> <span class='va'>n</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_bar.html'>geom_bar</a></span><span class='op'>(</span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>fill <span class='op'>=</span> <span class='va'>personality</span><span class='op'>)</span>, <span class='co'># Change fill color of bars by personality type</span>
+            stat <span class='op'>=</span> <span class='st'>"identity"</span>, <span class='co'># Use count as y variable</span>
+            show.legend <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Don't show legend</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='st'>"Villager Personality"</span>, <span class='co'># Change axis titles</span>
+       y <span class='op'>=</span> <span class='st'>"Number of Villagers"</span>,
+       title <span class='op'>=</span> <span class='st'>"ACNH Villager Personalities"</span>, <span class='co'># Give graph title</span>
+       subtitle <span class='op'>=</span> <span class='st'>"Which villager personality is the most abundant?"</span>,
+       caption <span class='op'>=</span> <span class='st'>"Data: VillagerDB \n Viz: @jenjentro"</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/scale_brewer.html'>scale_fill_brewer</a></span><span class='op'>(</span>palette <span class='op'>=</span> <span class='st'>"Dark2"</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Change fill colors of histogram bars</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_text.html'>geom_text</a></span><span class='op'>(</span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>label <span class='op'>=</span> <span class='va'>n</span><span class='op'>)</span>, <span class='co'># Add data labels for villager count</span>
+            color <span class='op'>=</span> <span class='st'>"white"</span>, <span class='co'># Change font color to white</span>
+            hjust <span class='op'>=</span> <span class='fl'>1.5</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Adjust position of labels on actual bars</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/scale_continuous.html'>scale_y_continuous</a></span><span class='op'>(</span>expand <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='fl'>0</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Extend plot to start at 0</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/coord_flip.html'>coord_flip</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Flip x and y axes</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_classic</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> <span class='co'># Change appearance of graph</span>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/theme.html'>theme</a></span><span class='op'>(</span>
+    plot.title <span class='op'>=</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/element.html'>element_text</a></span><span class='op'>(</span>hjust <span class='op'>=</span> <span class='fl'>0.5</span><span class='op'>)</span>, <span class='co'># Move graph title to center</span>
+    plot.subtitle <span class='op'>=</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/element.html'>element_text</a></span><span class='op'>(</span>hjust <span class='op'>=</span> <span class='fl'>0.5</span>, face <span class='op'>=</span> <span class='st'>"italic"</span><span class='op'>)</span> <span class='co'># Move subtitle to center, put in italics</span>
+  <span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://wilkelab.org/cowplot/reference/ggdraw.html'>ggdraw</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span> 
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_plot.html'>draw_plot</a></span><span class='op'>(</span><span class='va'>acnh_graph</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Anchovy"</span><span class='op'>]</span>, <span class='co'># Get pic for lazy villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.81</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Celia"</span><span class='op'>]</span>, <span class='co'># Get pic for normal villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.71</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Vivian"</span><span class='op'>]</span>, <span class='co'># Get pic for snooty villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.61</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Goose"</span><span class='op'>]</span>, <span class='co'># Get pic for jock villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.51</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Vic"</span><span class='op'>]</span>, <span class='co'># Get pic for cranky villager </span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.42</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Ketchup"</span><span class='op'>]</span>, <span class='co'># Get pic for peppy villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.32</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Raymond"</span><span class='op'>]</span>, <span class='co'># Get pic for smug villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.23</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://wilkelab.org/cowplot/reference/draw_image.html'>draw_image</a></span><span class='op'>(</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>url</span><span class='op'>[</span><span class='va'>villagers</span><span class='op'>$</span><span class='va'>name</span> <span class='op'>==</span> <span class='st'>"Phoebe"</span><span class='op'>]</span>, <span class='co'># Get pic for uchi villager</span>
+               x <span class='op'>=</span> <span class='fl'>0.10</span>, 
+               y <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               width <span class='op'>=</span> <span class='fl'>0.12</span>, 
+               height <span class='op'>=</span> <span class='fl'>0.12</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
+<img src="animal-crossing-graph_files/figure-html5/unnamed-chunk-1-1.png" alt="Total count of ACNH villagers per personality types!" width="624" />
+<p class="caption">
+Figure 1: Total count of ACNH villagers per personality types!
+</p>
+</div>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
