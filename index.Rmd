@@ -15,4 +15,4 @@ output:
   postcards::trestles
 ---
  
-I am a Master's Candidate at the Bren school of Environmental Science & Management at UC Santa Barbara. I am currently researching on forest management and conservation in Southern California. My intersts lie in urban ecology, fire ecology, and data science. 
+I am a Master's graduate from the Bren school of Environmental Science & Management at UC Santa Barbara. I started my career with a focus on conservation biology, although nowadays, I am currently working on my data analysis skills. My hobbies include hiking, visiting museums, and playing Animal Crossing: New Horizons!
