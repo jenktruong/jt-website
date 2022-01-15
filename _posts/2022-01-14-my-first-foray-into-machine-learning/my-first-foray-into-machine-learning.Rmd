@@ -1,0 +1,39 @@
+---
+title: "My First Foray into Machine Learning"
+description: |
+  Who knew it could be so complex?
+author:
+  - name: Jennifer Truong
+    url: {}
+date: 2022-01-14
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This assignment was in partnership with my group project teammate and a fellow Bren alumna, Hannah Garcia-Wickstrum.
+
+# Datasets
+
+- National Forest Boundaries: [USFS](https://data.fs.usda.gov/geodata/edw/datasets.php)
+- Landsat: [USGS EROS](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-products-overview?qt-science_center_objects=0#qt-science_center_objects)
+- Biophysical Settings: [LANDFIRE](https://landfire.gov/)
+- Digital Elevation Model (DEMs): [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
+- Fire perimeters: [CALFIRE](https://frap.fire.ca.gov/mapping/gis-data/)
+Climate
+PRISM
+https://prism.oregonstate.edu/recent/
+Burn Severity (rdnbr)
+MTBS
+https://www.mtbs.gov/direct-download
+
+# GIS Tools used
+
+- Raster Calculator
+- Reclassification
+
+# Final Map
