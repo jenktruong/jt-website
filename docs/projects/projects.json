@@ -1,8 +1,8 @@
 [
   {
-    "path": "projects/2021-11-06-smm-mountain-lion-map/",
-    "title": "Santa Monica Mountains Mountain Lions and Bobcats",
-    "description": "A short description of the post.",
+    "path": "projects/2022-01-06-la-mountain-lions-and-bobcats/",
+    "title": "LA Mountain Lions and Bobcats",
+    "description": "As native residents of the Santa Monica Mountains, mountain lions and bobcats have fascinated scientists, journalists, and others interested in urban ecology.",
     "author": [
       {
         "name": "Jennifer Truong",
@@ -16,7 +16,7 @@
     ],
     "contents": "\r\n\r\nThese maps were one of my very first interactions with ArcGIS and GIS in general. Everyone in my class was trained through these ArcGIS workshops before we began our senior practicum project. This map of Santa Monica Mountains was part of an assignment where we learned cartography and best practices for map design.\r\n I also had to create additional maps for populations of local fauna near the Santa Monica Mountains, since there are active conservation projects there. The mountain lion (Puma concolor) is one such species of focus for these conservation projects. I highlighted their population range in orange so I could avoid clashing with the symbology for the Santa Monica Mountains.\r\n\r\nIn this map, I tried to highlight the bobcat population (which was much smaller than the mountain lion population) with a yellow filled shapefile and reduced the opacity. Looking back at this now, I don’t think this was a good idea overall since the colors are clashing against each other. Maybe if I removed the protected/unprotected area symbology, the map would be a lot simpler to read.\r\nRegardless of my opinons of these maps now, I’m still proud of what I did for my intial foray into GIS.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-06T20:16:00-08:00",
+    "last_modified": "2022-01-14T15:57:52-08:00",
     "input_file": {}
   },
   {

@@ -1,7 +1,7 @@
 ---
-title: "Santa Monica Mountains Mountain Lions and Bobcats"
+title: "LA Mountain Lions and Bobcats"
 description: |
-  A short description of the post.
+  As native residents of the Santa Monica Mountains, mountain lions and bobcats have fascinated scientists, journalists, and others interested in urban ecology.
 author:
   - name: "Jennifer Truong"
 date: 01-06-2022

@@ -6,21 +6,21 @@
       "description": "Learn more about me",
       "author": [],
       "contents": "\r\nInterests\r\nI first became passionate about protecting the environment since high school. I enjoyed going on hikes and picking up trash with my school’s environmental club.\r\nAlong with my environmental work, I recently started creating content on Twitch. I try to play nature related games along with the usual video games I grew to love.\r\nExperience/Projects\r\nI attended UCLA for my bachelor’s in Environmental Science with a minor in Conservation Biology from 2011-2015. This was where I learned about the chaparral and coastal sage scrubs ecosystems in California. Here is where I also started developing my GIS skills. I earned a GIS certificate at UCLA extension.\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-06T20:46:39-08:00"
+      "last_modified": "2022-01-14T16:00:10-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-06T20:46:42-08:00"
+      "last_modified": "2022-01-14T16:00:14-08:00"
     },
     {
       "path": "index.html",
       "title": "Jennifer Truong",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Jennifer Truong\r\n          \r\n          \r\n          Home\r\n          About\r\n          Blog\r\n          Portfolio\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Jennifer Truong\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            I am a Master’s graduate from the Bren school of Environmental Science & Management at UC Santa Barbara. I started my career with a focus on conservation biology, although nowadays, I am currently working on my data analysis skills. My hobbies include hiking, visiting museums, and playing Animal Crossing: New Horizons!\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Jennifer Truong\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              I am a Master’s graduate from the Bren school of Environmental Science & Management at UC Santa Barbara. I started my career with a focus on conservation biology, although nowadays, I am currently working on my data analysis skills. My hobbies include hiking, visiting museums, and playing Animal Crossing: New Horizons!\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-01-06T20:46:43-08:00"
+      "last_modified": "2022-01-14T16:00:15-08:00"
     },
     {
       "path": "portfolio.html",
@@ -28,7 +28,7 @@
       "description": "Here is a sample of GIS and data science projects from my education and career\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-06T20:46:47-08:00"
+      "last_modified": "2022-01-14T16:00:19-08:00"
     }
   ],
   "collections": ["posts/posts.json", "projects/projects.json"]
