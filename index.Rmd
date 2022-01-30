@@ -10,6 +10,8 @@ links:
     url: "https://github.com/jenjentro"
   - label: Email
     url: "mailto:jktruong@bren.ucsb.edu"
+  - label: Blog
+    url: "https://jenjentro.medium.com/"
 site: distill::distill_website
 output:
   postcards::trestles
