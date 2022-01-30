@@ -1,18 +1,22 @@
 ---
 title: "A Generalized Bus Route Map"
 description: |
-  I never realized creating a transit map would make me love cartography so much.
+  I never realized a transit map would make me love cartography so much.
 author:
   - name: "Jennifer Truong"
-date: 01-28-2021
+date: 01-30-2022
 output:
   distill::distill_article:
     self_contained: false
+categories:
+  - data_visualization
+  - gis
 ---
 
 When I traveled internationally (by internationally, I meant outside of America), a feature that caught my attention during my trips was the colorful public transit map that appeared every block or so. London's Underground and Paris' Metro transit maps guided my way through unfamiliar urban territories during my study abroad trip in the summer of 2013. Tokyo's railway systems looked so neat, organized, and colorful on their maps that it helped distract me from the busy rush hour traffic and frantic tourists during the 2017 cherry blossom season.
 
-(insert maps of London, Paris, and Tokyo subways here)
+![](img/london underground map.png)
+*A snapshot of the London Underground map as of January 2022. Full map can be found [here](https://tfl.gov.uk/maps/track/tube).*
 
 I had a chance to create a generalized transit map of *my own* as a class assignment for my cartography class in the GIS Certificate program at UCLA Extension. Our task was to pick one of the routes from the Santa Monica Big Blue Bus (SMBBB) and re-draw them in two ways: one drawn to scale and the other as *generalized*. Creating the first map was simple enough at the time.
 
