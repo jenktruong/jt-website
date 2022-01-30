@@ -15,8 +15,8 @@
       "gis"
     ],
     "contents": "\r\nWhen I traveled internationally (by internationally, I meant outside of America), a feature that caught my attention during my trips was the colorful public transit map that appeared every block or so. London’s Underground and Paris’ Metro transit maps guided my way through unfamiliar urban territories during my study abroad trip in the summer of 2013. Tokyo’s railway systems looked so neat, organized, and colorful on their maps that it helped distract me from the busy rush hour traffic and frantic tourists during the 2017 cherry blossom season.\r\nA snapshot of the London Underground map as of January 2022. Full map can be found here.\r\nI had a chance to create a generalized transit map of my own as a class assignment for my cartography class in the GIS Certificate program at UCLA Extension. Our task was to pick one of the routes from the Santa Monica Big Blue Bus (SMBBB) and re-draw them in two ways: one drawn to scale and the other as generalized. Creating the first map was simple enough at the time.\r\n On the other hand, creating a generalized map was nervewrecking at first. How does one create a map without existing shapefiles or auto-labeling lines and points?\r\n After extensive clicking on the Draw toolbar, tinkering with line symbology, and adjusting text labels, it was done. I was surprised by how clean it turned out. At least the route did not look like a maze, and it made sense where the buses on the route would normally go.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-01-30T13:37:34-08:00",
+    "preview": "projects/2022-01-30-a-generalized-bus-route-map/img/smbbb-r8-generalized.png",
+    "last_modified": "2022-01-30T14:36:46-08:00",
     "input_file": {}
   },
   {
@@ -35,8 +35,8 @@
       "data_visualization"
     ],
     "contents": "\r\n\r\nThese maps were one of my very first interactions with ArcGIS and GIS in general. Everyone in my class was trained through these ArcGIS workshops before we began our senior practicum project. This map of Santa Monica Mountains was part of an assignment where we learned cartography and best practices for map design.\r\n I also had to create additional maps for populations of local fauna near the Santa Monica Mountains, since there are active conservation projects there. The mountain lion (Puma concolor) is one such species of focus for these conservation projects. I highlighted their population range in orange so I could avoid clashing with the symbology for the Santa Monica Mountains.\r\n\r\nIn this map, I tried to highlight the bobcat population (which was much smaller than the mountain lion population) with a yellow filled shapefile and reduced the opacity. Looking back at this now, I don’t think this was a good idea overall since the colors are clashing against each other. Maybe if I removed the protected/unprotected area symbology, the map would be a lot simpler to read.\r\nRegardless of my opinons of these maps now, I’m still proud of what I did for my intial foray into GIS.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2022-01-14T15:57:52-08:00",
+    "preview": "projects/2022-01-06-la-mountain-lions-and-bobcats/img/smm-mountain-lion_2014-10-30.png",
+    "last_modified": "2022-01-30T14:39:35-08:00",
     "input_file": {}
   },
   {

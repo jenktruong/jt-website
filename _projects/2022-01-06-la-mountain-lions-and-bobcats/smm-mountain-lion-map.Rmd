@@ -11,6 +11,7 @@ output:
 categories:
   - gis
   - data_visualization
+preview: img/smm-mountain-lion_2014-10-30.png
 ---
 
 

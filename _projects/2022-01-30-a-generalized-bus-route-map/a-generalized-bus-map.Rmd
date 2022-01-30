@@ -11,6 +11,7 @@ output:
 categories:
   - data_visualization
   - gis
+preview: img/smbbb-r8-generalized.png
 ---
 
 When I traveled internationally (by internationally, I meant outside of America), a feature that caught my attention during my trips was the colorful public transit map that appeared every block or so. London's Underground and Paris' Metro transit maps guided my way through unfamiliar urban territories during my study abroad trip in the summer of 2013. Tokyo's railway systems looked so neat, organized, and colorful on their maps that it helped distract me from the busy rush hour traffic and frantic tourists during the 2017 cherry blossom season.
