@@ -6,21 +6,21 @@
       "description": "A quick tidbit about who I am!",
       "author": [],
       "contents": "\r\nGrowing up in Orange County, California, I thought nature was always distant, never to be found in concrete sidewalks and man-made buildings. I was proven wrong once I attended college.\r\nI earned my B.S. in environmental science in 2015 from UCLA and my master’s in environmental science in 2021 from UC Santa Barbara. There, I took field trips to explore California’s diverse ecosystems, learned how to bird watch, and even got to collect algae specimens for a herbarium press!\r\nAlso during this time, I learned how to use ArcGIS and RStudio, which made me realize that I want to pursue a career in data science. Currently, I am taking some online courses on Coursera, as well as buliding this data science portfolio and my data science blog on Medium.\r\nIn my free time, I enjoy hiking, visiting museums and gardens, and watching TV shows. I also stream on Twitch on occasion to celebrate my love of video games (including nature-themed ones) with others.\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-30T14:40:58-08:00"
+      "last_modified": "2022-02-12T12:46:03-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-30T14:41:03-08:00"
+      "last_modified": "2022-02-12T12:46:06-08:00"
     },
     {
       "path": "index.html",
       "title": "Jennifer Truong",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Jennifer Truong\r\n          \r\n          \r\n          Home\r\n          About\r\n          Portfolio\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Jennifer Truong\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Blog\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            I am a Master’s graduate from the Bren school of Environmental Science & Management at UC Santa Barbara. I started my career with a focus on conservation biology, although nowadays, I am currently working on my data analysis skills. My hobbies include hiking, visiting museums, and playing Animal Crossing: New Horizons!\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Jennifer Truong\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Blog\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              I am a Master’s graduate from the Bren school of Environmental Science & Management at UC Santa Barbara. I started my career with a focus on conservation biology, although nowadays, I am currently working on my data analysis skills. My hobbies include hiking, visiting museums, and playing Animal Crossing: New Horizons!\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-01-30T14:41:04-08:00"
+      "last_modified": "2022-02-12T12:46:06-08:00"
     },
     {
       "path": "portfolio.html",
@@ -28,7 +28,7 @@
       "description": "Here is a sample of GIS and data science projects from my education and career. See my [Twitter](https://twitter.com/jenjentro) for more data vizualiations (mostly from #TidyTuesday)!\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-30T14:41:08-08:00"
+      "last_modified": "2022-02-12T12:46:10-08:00"
     }
   ],
   "collections": ["projects/projects.json", "posts/posts.json"]

@@ -1,6 +1,26 @@
 [
   {
-    "path": "projects/2021-11-06-sb-sea-lvl-rise-map/",
+    "path": "projects/2022-02-12-predicting-high-severity-wildfires-using-random-forests/",
+    "title": "Predicting High Severity Wildfires Using Random Forests",
+    "description": "My first foray into machine learning.",
+    "author": [
+      {
+        "name": "Jennifer Truong",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-12",
+    "categories": [
+      "gis",
+      "data_visualization"
+    ],
+    "contents": "\r\nFor my Conservation Planning class at Bren, my final assignment was to conduct a research project to practice using conservation planning tools we learned in class. This gave me an opportunity to explore other topics about my master’s group thesis project that are outside the scope. With a partner, we asked how likely areas of high severity wildfires will occur within San Bernardino National Forests, specifically within yellow pine and mixed conifer (YPMC) forests.\r\nWe utilized a Random Forests model to find which variables are likely to be important predictor variables for fire severity. The following datasets were gathered from these sources:\r\nA table of predictor variables for modeling of high-severity fire probability in YPMC forests in San Bernardino National Forest.I combined them into one shapefile using the Extract Multi Values to Points tool. I exported the attribute table as a dBase table and CSV for the input of the Random Forests model. After running the R code for the model, my partner found that NDVI and climatic water deficit (CWD) were considered to be important. I went back to our map to find areas that had high vegetation density and high CWD.\r\nAn inset within San Bernardino National Forest where high vegetation density (NDVI) was found.One area was in the westernmost part of San Bernardino National Forest; this area has high vegetation density. At the end of the project, we found two major areas that were predicted to have high fire severity overall.\r\n Because this was a class assignment and it was the first time with machine learning for both of us, our Random Forests analysis was a lot simpler than we would have liked, but I still learned a lot. Now that I’m determined to pursue a career in data analysis, I may come across machine learning more often.\r\n\r\n\r\n\r\n",
+    "preview": "projects/2022-02-12-predicting-high-severity-wildfires-using-random-forests/img/ndvi inset map.png",
+    "last_modified": "2022-02-12T12:45:24-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "projects/2022-02-12-projected-sea-level-rise-in-santa-barbara/",
     "title": "Projected Sea Level Rise in Santa Barbara",
     "description": "Forecasting an effect of climate change using spatial data.",
     "author": [
@@ -15,9 +35,9 @@
       "data_visualization"
     ],
     "contents": "\r\nA map showing projected sea level rise in Santa Barbara made through ArcMap.\r\n\r\n\r\n",
-    "preview": "projects/2021-11-06-sb-sea-lvl-rise-map/img/sb_sealvl_rise.png",
-    "last_modified": "2022-02-12T11:16:12-08:00",
-    "input_file": "sb-sea-lvl-rise-map.knit.md"
+    "preview": "projects/2022-02-12-projected-sea-level-rise-in-santa-barbara/img/sb_sealvl_rise.png",
+    "last_modified": "2022-02-12T11:16:14-08:00",
+    "input_file": {}
   },
   {
     "path": "projects/2022-01-30-a-generalized-bus-route-map/",
