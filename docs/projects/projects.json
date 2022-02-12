@@ -1,5 +1,25 @@
 [
   {
+    "path": "projects/2021-11-06-sb-sea-lvl-rise-map/",
+    "title": "Projected Sea Level Rise in Santa Barbara",
+    "description": "Forecasting an effect of climate change using spatial data.",
+    "author": [
+      {
+        "name": "Jennifer Truong",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-12",
+    "categories": [
+      "gis",
+      "data_visualization"
+    ],
+    "contents": "\r\nA map showing projected sea level rise in Santa Barbara made through ArcMap.\r\n\r\n\r\n",
+    "preview": "projects/2021-11-06-sb-sea-lvl-rise-map/img/sb_sealvl_rise.png",
+    "last_modified": "2022-02-12T11:16:12-08:00",
+    "input_file": "sb-sea-lvl-rise-map.knit.md"
+  },
+  {
     "path": "projects/2022-01-30-a-generalized-bus-route-map/",
     "title": "A Generalized Bus Route Map",
     "description": "I never realized a transit map would make me love cartography so much.",
